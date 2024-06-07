@@ -1,5 +1,5 @@
 @media screen and (max-width: 500px) {
- .header {
+  .header {
     max-width: 100%;
     padding: 0 20px 0 30px;
   }
@@ -13,38 +13,22 @@
     gap: 0px;
   }
 
-  .main-column {
-    width: 100%;
+  .buttons-container {
+    display: flex;
+    gap: 1rem;
   }
-
-  .intro-text {
-    max-width: 100%;
-    margin-top: 40px;
+  .intro-heading {
+    margin: 0;
+    font-size: 1rem;
   }
-
- 
 
   .intro-description {
-    max-width: 100%;
-  }
-
-  .buttons-container {
-    max-width: 100%;
-    flex-wrap: wrap;
-    padding-right: 20px;
-    margin-top: 40px;
-  }
-
-  .button-secondary {
-    white-space: initial;
-    padding: 0 20px;
+    width: 70vw;
   }
 
   .secondary-column {
     width: 100%;
   }
-
-  
 
   .skills-heading {
     margin: 40px 0 0 8px;
@@ -59,20 +43,23 @@
     max-width: 100%;
     padding: 0 20px;
   }
-
-  .contact-heading {
-    margin: 40px 0 0 10px;
+  .personal-image {
+    width: 95%;
+    padding-top: 1rem;
   }
-
   .contact-section {
-    padding: 0 20px;
+    padding: 2rem;
   }
-
+  .contact-info {
+    margin: 0.5rem;
+  }
   .contact-info-wrapper {
     max-width: 100%;
     flex-wrap: wrap;
   }
-
+  .project-tech {
+    padding: 1rem;
+  }
   .contact-detail {
     white-space: initial;
   }
@@ -87,13 +74,12 @@
   }
 
   .project-wrapper {
-    max-width: 100%;
-    margin-top: 40px;
-    padding: 0 20px;
+    width: 74vw;
+    padding: 1rem;
   }
 
   .project-title {
-    max-width: 100%;
+    font-size: 1rem;
   }
 
   .project-description {
@@ -132,14 +118,12 @@
   }
 
   .about-section {
-    max-width: 100%;
-    margin-top: 40px;
-    padding: 0 20px;
+    width: 70%;
   }
 
   .about-text {
-    max-width: 100%;
-    margin: 40px 10px 0 0;
+    width: 100%;
+    text-align: justify;
   }
 
   .contact-info {
@@ -147,6 +131,3 @@
     flex-direction: column;
   }
 }
-
-
-  
