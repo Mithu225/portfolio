@@ -1,0 +1,152 @@
+@media screen and (max-width: 500px) {
+ .header {
+    max-width: 100%;
+    padding: 0 20px 0 30px;
+  }
+  .main-section {
+    max-width: 100%;
+  }
+
+  .main-content {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0px;
+  }
+
+  .main-column {
+    width: 100%;
+  }
+
+  .intro-text {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+
+ 
+
+  .intro-description {
+    max-width: 100%;
+  }
+
+  .buttons-container {
+    max-width: 100%;
+    flex-wrap: wrap;
+    padding-right: 20px;
+    margin-top: 40px;
+  }
+
+  .button-secondary {
+    white-space: initial;
+    padding: 0 20px;
+  }
+
+  .secondary-column {
+    width: 100%;
+  }
+
+  
+
+  .skills-heading {
+    margin: 40px 0 0 8px;
+  }
+
+  .skills-wrapper {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  .skill-box {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  .contact-heading {
+    margin: 40px 0 0 10px;
+  }
+
+  .contact-section {
+    padding: 0 20px;
+  }
+
+  .contact-info-wrapper {
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .contact-detail {
+    white-space: initial;
+  }
+
+  .social-section {
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .project-heading {
+    margin-top: 40px;
+  }
+
+  .project-wrapper {
+    max-width: 100%;
+    margin-top: 40px;
+    padding: 0 20px;
+  }
+
+  .project-title {
+    max-width: 100%;
+  }
+
+  .project-description {
+    max-width: 100%;
+    margin-right: 10px;
+  }
+
+  .project-image {
+    max-width: 100%;
+  }
+
+  .project-text {
+    max-width: 100%;
+    margin-right: 10px;
+  }
+
+  .project-container {
+    max-width: 100%;
+    margin-top: 40px;
+    padding: 0 20px;
+  }
+
+  .project-box {
+    max-width: 100%;
+  }
+
+  .additional-projects {
+    max-width: 100%;
+    margin-top: 40px;
+    padding: 0 20px;
+  }
+
+  .project-image-wrapper {
+    max-width: 100%;
+    margin-right: 10px;
+  }
+
+  .about-section {
+    max-width: 100%;
+    margin-top: 40px;
+    padding: 0 20px;
+  }
+
+  .about-text {
+    max-width: 100%;
+    margin: 40px 10px 0 0;
+  }
+
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+  
