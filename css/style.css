@@ -1,3 +1,5 @@
+@import url("./desktop-frame.css");
+
 html {
   scroll-behavior: smooth;
 }
@@ -256,7 +258,7 @@ ion-icon {
 }
 
 .project-wrapper {
-  border-radius: 0px 174px;
+  border-radius: 0px 4rem;
   border-color: rgba(151, 182, 90, 1);
   border-style: solid;
   border-width: 4px;
@@ -298,6 +300,32 @@ ion-icon {
   gap: 20px;
   justify-content: space-between;
 }
+
+.project-website-description {
+  margin: 2rem 0;
+  font-style: italic;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.quote-symbol {
+  font-size: 3rem;
+  color: #ccc;
+}
+
+.project-website-description .quote-symbol:first-of-type {
+  position: absolute;
+  left: -1.5rem;
+  top: -0.5rem;
+}
+
+.project-website-description .quote-symbol:last-of-type {
+  position: absolute;
+  right: 0;
+  bottom: -2rem;
+}
+
 .button {
   padding: 0.5rem 1rem;
   font-size: 1rem;
