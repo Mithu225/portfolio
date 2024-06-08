@@ -36,13 +36,8 @@
 
   .skills-wrapper {
     max-width: 100%;
-    padding: 0 20px;
   }
 
-  .skill-box {
-    max-width: 100%;
-    padding: 0 20px;
-  }
   .personal-image {
     width: 95%;
     padding-top: 1rem;
@@ -129,5 +124,18 @@
   .contact-info {
     display: flex;
     flex-direction: column;
+  }
+  .ask-me-info {
+    width: 77%;
+  }
+  .button {
+    font-size: 0.5rem;
+  }
+  .skills-heading,
+  .contact-heading,
+  .project-heading {
+    font-size: 2rem;
+    margin: 0;
+    text-align: center;
   }
 }

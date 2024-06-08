@@ -1,0 +1,15 @@
+@media screen and (max-width: 1024px) {
+  .contact-info {
+    gap: 2rem;
+  }
+  .skills-heading,
+  .contact-heading,
+  .project-heading {
+    font-size: 2rem;
+    margin: 0;
+    text-align: center;
+  }
+  .project-wrapper {
+    width: 83%;
+  }
+}

@@ -1,3 +1,12 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Nunito, sans-serif;
+}
+
 .page-wrapper {
   border-radius: 10px;
   background-color: #006d77;
@@ -102,15 +111,14 @@
 .skills-heading {
   color: #fff;
   letter-spacing: 12.4px;
-  align-self: start;
-  margin-top: 47px;
+  margin-top: 2rem;
   padding: 0 2rem;
   font: 700 40px/120% Manrope, sans-serif;
 }
 
 .skills-wrapper {
   display: flex;
-  margin-top: 8px;
+  margin-top: 2rem;
   flex-direction: column;
   align-items: center;
   padding: 0 2rem;
@@ -140,7 +148,6 @@
 .contact-heading {
   color: #fff;
   letter-spacing: 12.4px;
-  align-self: start;
   font: 700 40px/120% Manrope, sans-serif;
   padding: 2rem;
 }
@@ -292,12 +299,13 @@ ion-icon {
   justify-content: space-between;
 }
 .button {
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
   font-size: 1rem;
   border-radius: 0.5rem;
   outline: none;
   border: none;
   cursor: pointer;
+  text-transform: uppercase;
   text-decoration: none;
 }
 
@@ -407,4 +415,13 @@ ion-icon {
 .submit-button {
   text-align: center;
   margin-top: 2rem;
+}
+
+#personal-projects {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-wrapper:nth-child(even) {
+  align-self: flex-end;
 }
