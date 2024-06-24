@@ -189,8 +189,15 @@ body {
   gap: 5rem;
   max-width: 100%;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
+
+.contact-info a,
+.contact-info span {
+  color: white;
+  text-decoration: none;
+}
+
 ion-icon {
   color: #f24e1e;
 }
@@ -228,9 +235,11 @@ ion-icon {
   flex-grow: 1;
   flex-basis: auto;
 }
-.social-section {
+.social-section,
+.contact-info-wrapper {
   display: flex;
   flex-direction: column;
+  gap: 1rem;
 }
 
 .social-detail {
@@ -504,8 +513,10 @@ ion-icon {
 }
 
 .text-heading {
+  padding-top: 3rem;
   margin: auto;
   font-size: 3.5rem;
-  font-weight: 300;
+  font-weight: 500;
+  font-family: "Roboto";
   animation: lights 5s 750ms linear infinite;
 }
