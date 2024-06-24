@@ -1,4 +1,5 @@
 @import url("./desktop-frame.css");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+MX:wght@100..400&family=Playwrite+US+Trad:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 html {
   scroll-behavior: smooth;
@@ -6,12 +7,12 @@ html {
 
 body {
   margin: 0;
-  font-family: Nunito, sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .page-wrapper {
   border-radius: 10px;
-  background-color: #006d77;
+  background-color: #185a60;
   display: flex;
   padding-bottom: 80px;
   flex-direction: column;
@@ -61,18 +62,24 @@ body {
 
 .intro-heading {
   color: #fff;
-  font: 64px Playfair Display, sans-serif;
+  font: 64px "Playfair Display", sans-serif;
+  margin-bottom: 10px;
 }
 
 .intro-description {
-  color: rgba(255, 255, 255, 0.8);
+  color: white;
   margin-top: 35px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 2rem;
 }
 .button-container {
   margin: 2rem 0;
+  display: flex;
+  gap: 1rem;
 }
 .button-primary {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   border-radius: 10px;
   box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.1);
   background-color: #ee9b00;
@@ -113,11 +120,15 @@ body {
   max-width: 100%;
 }
 .skills-heading {
-  color: #fff;
   letter-spacing: 12.4px;
+  color: #fff;
   margin-top: 2rem;
   padding: 0 2rem;
-  font: 700 40px/120% Manrope, sans-serif;
+  font-family: "Lato", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: x-large;
 }
 
 .skills-wrapper {
@@ -131,13 +142,13 @@ body {
 .skill-box,
 .skill-box-secondary {
   border-radius: 0px 128px;
-  background-color: #97b65a;
   align-self: stretch;
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 70%;
   margin-top: 1rem;
+  margin: 0 auto;
 }
 
 .skill-image {
@@ -160,7 +171,6 @@ body {
 }
 .contact-section {
   border-radius: 128px 0px;
-  background-color: #97b65a;
   margin: 2rem;
   width: 70%;
   align-items: stretch;
@@ -170,6 +180,7 @@ body {
   line-height: 120%;
   justify-content: center;
   padding: 2rem 0;
+  margin: 0 auto;
 }
 
 .contact-info {
@@ -178,6 +189,7 @@ body {
   gap: 5rem;
   max-width: 100%;
   flex-direction: row;
+  justify-content: space-between;
 }
 ion-icon {
   color: #f24e1e;
@@ -260,10 +272,6 @@ ion-icon {
 }
 
 .project-wrapper {
-  border-radius: 0px 4rem;
-  border-color: rgba(151, 182, 90, 1);
-  border-style: solid;
-  border-width: 4px;
   background-color: #1d6d74;
   display: flex;
   margin: 2rem;
@@ -413,7 +421,6 @@ ion-icon {
   border-style: solid;
   border-width: 2px;
   background-color: #fff;
-  width: 100%;
   padding: 1.5rem;
   font-size: 1rem;
 }
@@ -427,7 +434,6 @@ ion-icon {
   border-style: solid;
   border-width: 2px;
   background-color: #fff;
-  width: 100%;
   padding: 1.5rem;
   height: 273px;
 }
@@ -453,4 +459,53 @@ ion-icon {
 
 .project-wrapper:nth-child(even) {
   align-self: flex-end;
+}
+
+@keyframes lights {
+  0% {
+    color: hsl(230, 40%, 80%);
+    text-shadow: 0 0 1em hsla(320, 100%, 50%, 0.2),
+      0 0 0.125em hsla(320, 100%, 60%, 0.3),
+      -1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+      1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+  }
+
+  30% {
+    color: hsl(230, 80%, 90%);
+    text-shadow: 0 0 1em hsla(320, 100%, 50%, 0.5),
+      0 0 0.125em hsla(320, 100%, 60%, 0.5),
+      -0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+      0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+  }
+
+  40% {
+    color: hsl(230, 100%, 95%);
+    text-shadow: 0 0 1em hsla(320, 100%, 50%, 0.5),
+      0 0 0.125em hsla(320, 100%, 90%, 0.5),
+      -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.2),
+      0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.4);
+  }
+
+  70% {
+    color: hsl(230, 80%, 90%);
+    text-shadow: 0 0 1em hsla(320, 100%, 50%, 0.5),
+      0 0 0.125em hsla(320, 100%, 60%, 0.5),
+      0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+      -0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+  }
+
+  100% {
+    color: hsl(230, 40%, 80%);
+    text-shadow: 0 0 1em hsla(320, 100%, 50%, 0.2),
+      0 0 0.125em hsla(320, 100%, 60%, 0.3),
+      1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+      -1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+  }
+}
+
+.text-heading {
+  margin: auto;
+  font-size: 3.5rem;
+  font-weight: 300;
+  animation: lights 5s 750ms linear infinite;
 }
